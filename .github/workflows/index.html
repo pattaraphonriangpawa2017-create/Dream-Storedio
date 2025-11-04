@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dream Storedio - Architectural Model Creator for Real & Concept Designs">
+    <title>Dream Storedio | 3D Architectural Models</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="Assets/Logo.jpg" alt="Dream Storedio Logo">
+                    <span>Dream Storedio</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Architectural Model</span>
+                    <span class="title-line">Creator for Real &</span>
+                    <span class="title-line">Concept Designs</span>
+                </h1>
+                <p class="hero-subtitle">
+                    I create detailed architectural models for both existing and new buildings.<br>
+                    My work focuses on realistic proportions, clean geometry, and efficient presentation—<br>
+                    ideal for architects, designers, and developers looking to visualize their concepts.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Bringing Architectural Visions to Life</h3>
+                    <p>
+                        As a specialized 3D architectural model creator, I transform ideas and blueprints 
+                        into stunning visual representations. With expertise in both realistic and conceptual 
+                        designs, I help architects, designers, and developers communicate their vision effectively.
+                    </p>
+                    <p>
+                        My approach combines technical precision with artistic sensibility, ensuring each model 
+                        not only looks exceptional but also serves as a practical tool for project development 
+                        and client presentations.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-icon">📐</div>
+                            <h4>Realistic Proportions</h4>
+                            <p>Accurate scale and dimensions</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">✨</div>
+                            <h4>Clean Geometry</h4>
+                            <p>Optimized and professional models</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🎯</div>
+                            <h4>Efficient Presentation</h4>
+                            <p>Ready for any platform</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">A showcase of my recent architectural 3D modeling projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam1.jpg" alt="Architectural Model 1">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 1</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(0)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam2.jpg" alt="Architectural Model 2">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 2</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(1)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam3.jpg" alt="Architectural Model 3">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 3</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(2)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam4.jpg" alt="Architectural Model 4">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 4</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(3)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam5.jpg" alt="Architectural Model 5">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 5</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(4)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam6.jpg" alt="Architectural Model 6">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 6</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(5)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam7.jpg" alt="Architectural Model 7">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 7</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(6)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-image">
+                        <img src="Assets/Exam8.jpg" alt="Architectural Model 8">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>Architectural Project 8</h3>
+                                <p>3D Architectural Visualization</p>
+                                <button class="view-btn" onclick="openModal(7)">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption"></div>
+        <button class="modal-nav modal-prev">&#10094;</button>
+        <button class="modal-nav modal-next">&#10095;</button>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Let's discuss your architectural visualization needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:pattaraphon.riangpawa2017@gmail.com">pattaraphon.riangpawa2017@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Available for Remote Projects</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Services</h3>
+                            <p>3D Architectural Modeling</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Ready to start your project?</h3>
+                    <p>Drop me an email and let's bring your architectural vision to life with professional 3D modeling.</p>
+                    <a href="mailto:pattaraphon.riangpawa2017@gmail.com" class="btn btn-primary">Send Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Assets/Logo.jpg" alt="Dream Storedio Logo">
+                    <span>Dream Storedio</span>
+                </div>
+                <p class="footer-text">
+                    © 2025 Dream Storedio. All rights reserved.<br>
+                    Architectural Model Creator for Real & Concept Designs
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
